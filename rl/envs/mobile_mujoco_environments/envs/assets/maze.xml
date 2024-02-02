@@ -1,0 +1,118 @@
+<mujoco model = "maze">
+<worldbody>
+<body name="obstacle_0">
+	<geom name="obstacle_0" type="box" size="0.5 0.5 0.1" pos="-4.0 -4.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_1">
+	<geom name="obstacle_1" type="box" size="0.5 0.5 0.1" pos="-4.0 -3.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_2">
+	<geom name="obstacle_2" type="box" size="0.5 0.5 0.1" pos="-4.0 -2.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_3">
+	<geom name="obstacle_3" type="box" size="0.5 0.5 0.1" pos="-4.0 -1.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_4">
+	<geom name="obstacle_4" type="box" size="0.5 0.5 0.1" pos="-4.0 0.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_5">
+	<geom name="obstacle_5" type="box" size="0.5 0.5 0.1" pos="-4.0 1.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_6">
+	<geom name="obstacle_6" type="box" size="0.5 0.5 0.1" pos="-4.0 2.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_7">
+	<geom name="obstacle_7" type="box" size="0.5 0.5 0.1" pos="-4.0 3.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_8">
+	<geom name="obstacle_8" type="box" size="0.5 0.5 0.1" pos="-3.0 -4.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_9">
+	<geom name="obstacle_9" type="box" size="0.5 0.5 0.1" pos="-3.0 -1.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_10">
+	<geom name="obstacle_10" type="box" size="0.5 0.5 0.1" pos="-3.0 3.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_11">
+	<geom name="obstacle_11" type="box" size="0.5 0.5 0.1" pos="-2.0 -4.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_12">
+	<geom name="obstacle_12" type="box" size="0.5 0.5 0.1" pos="-2.0 -1.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_13">
+	<geom name="obstacle_13" type="box" size="0.5 0.5 0.1" pos="-2.0 1.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_14">
+	<geom name="obstacle_14" type="box" size="0.5 0.5 0.1" pos="-2.0 3.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_15">
+	<geom name="obstacle_15" type="box" size="0.5 0.5 0.1" pos="-1.0 -4.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_16">
+	<geom name="obstacle_16" type="box" size="0.5 0.5 0.1" pos="-1.0 -3.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_17">
+	<geom name="obstacle_17" type="box" size="0.5 0.5 0.1" pos="-1.0 2.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_18">
+	<geom name="obstacle_18" type="box" size="0.5 0.5 0.1" pos="-1.0 3.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_19">
+	<geom name="obstacle_19" type="box" size="0.5 0.5 0.1" pos="0.0 -4.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_20">
+	<geom name="obstacle_20" type="box" size="0.5 0.5 0.1" pos="0.0 -3.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_21">
+	<geom name="obstacle_21" type="box" size="0.5 0.5 0.1" pos="0.0 -2.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_22">
+	<geom name="obstacle_22" type="box" size="0.5 0.5 0.1" pos="0.0 0.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_23">
+	<geom name="obstacle_23" type="box" size="0.5 0.5 0.1" pos="0.0 3.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_24">
+	<geom name="obstacle_24" type="box" size="0.5 0.5 0.1" pos="1.0 -4.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_25">
+	<geom name="obstacle_25" type="box" size="0.5 0.5 0.1" pos="1.0 1.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_26">
+	<geom name="obstacle_26" type="box" size="0.5 0.5 0.1" pos="1.0 3.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_27">
+	<geom name="obstacle_27" type="box" size="0.5 0.5 0.1" pos="2.0 -4.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_28">
+	<geom name="obstacle_28" type="box" size="0.5 0.5 0.1" pos="2.0 -1.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_29">
+	<geom name="obstacle_29" type="box" size="0.5 0.5 0.1" pos="2.0 3.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_30">
+	<geom name="obstacle_30" type="box" size="0.5 0.5 0.1" pos="3.0 -4.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_31">
+	<geom name="obstacle_31" type="box" size="0.5 0.5 0.1" pos="3.0 -3.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_32">
+	<geom name="obstacle_32" type="box" size="0.5 0.5 0.1" pos="3.0 -2.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_33">
+	<geom name="obstacle_33" type="box" size="0.5 0.5 0.1" pos="3.0 -1.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_34">
+	<geom name="obstacle_34" type="box" size="0.5 0.5 0.1" pos="3.0 0.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_35">
+	<geom name="obstacle_35" type="box" size="0.5 0.5 0.1" pos="3.0 1.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_36">
+	<geom name="obstacle_36" type="box" size="0.5 0.5 0.1" pos="3.0 2.0 0.05" rgba="1 0 0 1"/>
+</body>
+<body name="obstacle_37">
+	<geom name="obstacle_37" type="box" size="0.5 0.5 0.1" pos="3.0 3.0 0.05" rgba="1 0 0 1"/>
+</body>
+</worldbody>
+</mujoco>

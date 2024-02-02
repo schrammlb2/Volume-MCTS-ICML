@@ -1,0 +1,238 @@
+
+running RedLightGridworld, 0.0 noise, 2-goal ratio with delta-probability
+
+running RedLightGridworld, 0.0 noise, 2-goal ratio with delta-probability
+
+running RedLightGridworld, 0.0 noise, 2-goal ratio with delta-probability
+
+running RedLightGridworld, 0.0 noise, 2-goal ratio with delta-probability
+
+running RedLightGridworld, 0.0 noise, 1-goal
+
+running RedLightGridworld, 0.0 noise, 1-goal
+
+running RedLightGridworld, 0.0 noise, 1-goal
+
+running RedLightGridworld, 0.0 noise, 1-goal
+
+running RedLightGridworld, 0.0 noise, 1-goal
+
+running RedLightGridworld, 0.0 noise, 2-goal ratio with delta-probability
+
+running RedLightGridworld, 0.0 noise, 2-goal ratio with delta-probability
+
+running RedLightGridworld, 0.0 noise, 2-goal ratio with delta-probability
+
+running RedLightGridworld, 0.0 noise, 1-goal
+
+running RedLightGridworld, 0.0 noise, 2-goal ratio with delta-probability
+
+running RedLightGridworld, positive_reward, 0.0 noise, ARCHER
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, negative_reward, 0.0 noise, ARCHER
+
+running RedLightGridworld, positive_reward, 0.0 noise, ARCHER
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, negative_reward, 0.0 noise, ARCHER
+
+running RedLightGridworld, negative_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, negative_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, positive_reward, 0.0 noise, ARCHER
+
+running RedLightGridworld, negative_reward, 0.0 noise, ARCHER
+
+running RedLightGridworld, negative_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, negative_reward, 0.0 noise, ARCHER
+
+running RedLightGridworld, negative_reward, 0.0 noise, ARCHER
+
+running RedLightGridworld, positive_reward, 0.0 noise, ARCHER
+
+running RedLightGridworld, positive_reward, 0.0 noise, ARCHER
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, negative_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, negative_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, negative_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal
+action_noise: 0.0, 	two_goal: True, 
+	success_rate: 0.5039999999999999
+	average_reward: 2.5115250906718667
+	average_initial_value: 2.704763922691346
+
+action_noise: 0.0, 	two_goal: True, 
+	success_rate: 0.5880000000000001
+	average_reward: 2.597060275463269
+	average_initial_value: 3.2601847114562985
+
+action_noise: 0.0, 	two_goal: True, 
+	success_rate: 0.45199999999999996
+	average_reward: 2.6416526560086506
+	average_initial_value: 2.943520114898681
+
+action_noise: 0.0, 	two_goal: True, 
+	success_rate: 0.5519999999999999
+	average_reward: 2.5223584710993388
+	average_initial_value: 2.872510066986084
+
+action_noise: 0.0, 	two_goal: True, 
+	success_rate: 0.458
+	average_reward: 2.4618883523337973
+	average_initial_value: 3.0572167997360227
+
+action_noise: 0.0, 	two_goal: True, 
+	success_rate: 0.644
+	average_reward: 2.499121877829424
+	average_initial_value: 2.9604927759170536
+
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal
+action_noise: 0.0, 	two_goal: False, 
+	success_rate: 0.4800000000000001
+	average_reward: 2.8705566000352687
+	average_initial_value: 4.203619720458984
+
+action_noise: 0.0, 	two_goal: False, 
+	success_rate: 0.33599999999999997
+	average_reward: 2.2104893693941916
+	average_initial_value: 4.808342888832092
+
+action_noise: 0.0, 	two_goal: False, 
+	success_rate: 0.372
+	average_reward: 2.1803754293700446
+	average_initial_value: 4.5531212463378905
+
+action_noise: 0.0, 	two_goal: False, 
+	success_rate: 0.38399999999999995
+	average_reward: 2.352290143462918
+	average_initial_value: 4.480341260910034
+
+action_noise: 0.0, 	two_goal: False, 
+	success_rate: 0.35999999999999993
+	average_reward: 2.3074203938501023
+	average_initial_value: 4.727005971908569
+
+action_noise: 0.0, 	two_goal: False, 
+	success_rate: 0.414
+	average_reward: 2.463186035641829
+	average_initial_value: 4.084561878204346
+
+
+running RedLightGridworld, negative_reward, 0.0 noise, 1-goal
+action_noise: 0.0, 	two_goal: True, 
+	success_rate: 0.5820000000000001
+	average_reward: -6.866637730539388
+	average_initial_value: -7.124217729568481
+
+action_noise: 0.0, 	two_goal: True, 
+	success_rate: 0.654
+	average_reward: -6.663248684038734
+	average_initial_value: -7.023370459556579
+
+action_noise: 0.0, 	two_goal: True, 
+	success_rate: 0.818
+	average_reward: -6.18153888226876
+	average_initial_value: -6.967640159606932
+
+action_noise: 0.0, 	two_goal: True, 
+	success_rate: 0.8119999999999999
+	average_reward: -6.209531536219153
+	average_initial_value: -6.839346111297607
+
+action_noise: 0.0, 	two_goal: True, 
+	success_rate: 0.6559999999999999
+	average_reward: -6.7242526805920075
+	average_initial_value: -6.814099254608155
+
+action_noise: 0.0, 	two_goal: True, 
+	success_rate: 0.768
+	average_reward: -6.360530190440322
+	average_initial_value: -6.783683361053467
+
+
+running RedLightGridworld, negative_reward, 0.0 noise, 1-goal
+action_noise: 0.0, 	two_goal: False, 
+	success_rate: 0.388
+	average_reward: -7.130889777392392
+	average_initial_value: -5.639570814132692
+
+action_noise: 0.0, 	two_goal: False, 
+	success_rate: 0.4640000000000001
+	average_reward: -7.095305517933416
+	average_initial_value: -5.934519730567933
+
+action_noise: 0.0, 	two_goal: False, 
+	success_rate: 0.43
+	average_reward: -7.2365595706197485
+	average_initial_value: -5.80612609243393
+
+action_noise: 0.0, 	two_goal: False, 
+	success_rate: 0.36
+	average_reward: -7.25723269311806
+	average_initial_value: -5.316800475120544
+
+action_noise: 0.0, 	two_goal: False, 
+	success_rate: 0.344
+	average_reward: -7.444540871356904
+	average_initial_value: -5.68115128660202
+
+action_noise: 0.0, 	two_goal: False, 
+	success_rate: 0.39399999999999996
+	average_reward: -6.985756730963358
+	average_initial_value: -5.6703358631134035
+
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running RedLightGridworld, positive_reward, 0.0 noise, 1-goal

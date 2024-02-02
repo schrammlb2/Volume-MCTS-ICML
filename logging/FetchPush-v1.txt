@@ -1,0 +1,100 @@
+
+running FetchPush-v1, 0.0 noise, 2-goal ratio with delta-probability
+
+running FetchPush-v1, 0.0 noise, 1-goal
+
+running FetchPush-v1, 0.0 noise, 2-goal ratio with delta-probability
+
+running FetchPush-v1, 0.0 noise, 1-goal
+
+running FetchPush-v1, 0.0 noise, 2-goal ratio with delta-probability
+
+running FetchPush-v1, 0.0 noise, 1-goal
+
+running FetchPush-v1, 0.0 noise, 2-goal ratio with delta-probability
+
+running FetchPush-v1, 0.0 noise, 1-goal
+
+running FetchPush-v1, 0.0 noise, 2-goal ratio with delta-probability
+
+running FetchPush-v1, 0.0 noise, 1-goal
+
+running FetchPush-v1,  noise, 1-goal
+
+running FetchPush-v1,  noise, 2-goal ratio with delta-probability
+
+running FetchPush-v1,  noise, DDPG
+
+running FetchPush-v1,  noise, δ-DDPG
+
+running FetchPush-v1,  noise, 1-goal
+
+running FetchPush-v1,  noise, 2-goal ratio with delta-probability
+
+running FetchPush-v1,  noise, DDPG
+
+running FetchPush-v1,  noise, δ-DDPG
+
+running FetchPush-v1,  noise, 1-goal
+
+running FetchPush-v1, 0.0 noise, 1-goal
+
+running FetchPush-v1, 0.0 noise, 2-goal ratio with delta-probability
+
+running FetchPush-v1, 0.0 noise, DDPG
+
+running FetchPush-v1, 0.0 noise, δ-DDPG
+
+running FetchPush-v1, 0.0 noise, 1-goal
+
+running FetchPush-v1, 0.0 noise, 2-goal ratio with delta-probability
+
+running FetchPush-v1, 0.0 noise, DDPG
+
+running FetchPush-v1, 0.0 noise, δ-DDPG
+
+running FetchPush-v1, 0.0 noise, δ-DDPG
+
+running FetchPush-v1, 0.0 noise, δ-DDPG
+
+running FetchPush-v1, 0.0 noise, δ-DDPG
+
+running FetchPush-v1, 0.0 noise, δ-DDPG
+
+running FetchPush-v1, 0.0 noise, δ-DDPG
+
+running FetchPush-v1, 0.0 noise, δ-DDPG
+
+running FetchPush-v1, 0.0 noise, δ-DDPG
+
+running FetchPush-v1, 0.0 noise, δ-DDPG
+
+running FetchPush-v1, 0.0 noise, 1-goal
+
+running FetchPush-v1, 0.0 noise, 2-goal ratio with delta-probability
+
+running FetchPush-v1, 0.0 noise, DDPG
+
+running FetchPush-v1, 0.0 noise, δ-DDPG
+
+running FetchPush-v1, 0.0 noise, 1-goal
+
+running FetchPush-v1, 0.0 noise, 2-goal ratio with delta-probability
+
+running FetchPush-v1, 0.0 noise, DDPG
+
+running FetchPush-v1, 0.0 noise, δ-DDPG
+
+running FetchPush-v1, 0.0 noise, 1-goal
+
+running FetchPush-v1, 0.0 noise, 2-goal ratio with delta-probability
+
+running FetchPush-v1, 0.0 noise, DDPG
+
+running FetchPush-v1, 0.0 noise, δ-DDPG
+
+running FetchPush-v1, 0.0 noise, DDPG
+
+running FetchPush-v1, 0.0 noise, 2-goal ratio with delta-probability
+
+running FetchPush-v1, 0.0 noise, 1-goal

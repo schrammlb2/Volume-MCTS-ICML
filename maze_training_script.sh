@@ -1,0 +1,9 @@
+python maze_difficulty_continuous.py
+python maze_difficulty_ngu.py
+python maze_difficulty_volume_MCTS.py
+python maze_difficulty_open_loop_continuous.py
+
+python maze_difficulty_continuous_with_training.py
+python maze_difficulty_ngu_with_training.py
+python maze_difficulty_volume_MCTS_with_training.py
+python maze_difficulty_open_loop_continuous_with_training.py

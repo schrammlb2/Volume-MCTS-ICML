@@ -1,0 +1,34 @@
+
+running FetchSlide-v1, 0.0 noise, 2-goal ratio with delta-probability
+
+running FetchSlide-v1, 0.0 noise, 1-goal
+
+running FetchSlide-v1,  noise, 1-goal
+
+running FetchSlide-v1,  noise, DDPG
+
+running FetchSlide-v1,  noise, δ-DDPG
+
+running FetchSlide-v1,  noise, 1-goal
+
+running FetchSlide-v1,  noise, DDPG
+
+running FetchSlide-v1,  noise, δ-DDPG
+
+running FetchSlide-v1, 0.0 noise, DDPG
+
+running FetchSlide-v1, 0.0 noise, δ-DDPG
+
+running FetchSlide-v1, 0.0 noise, DDPG
+
+running FetchSlide-v1, 0.0 noise, DDPG
+
+running FetchSlide-v1, 0.0 noise, δ-DDPG
+
+running FetchSlide-v1, 0.0 noise, DDPG
+
+running FetchSlide-v1, 0.0 noise, δ-DDPG
+
+running FetchSlide-v1, 0.0 noise, 2-goal ratio with delta-probability
+
+running FetchSlide-v1, 0.0 noise, 1-goal

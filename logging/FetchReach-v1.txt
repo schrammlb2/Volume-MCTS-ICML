@@ -1,0 +1,3 @@
+
+
+running FetchReach-v1, 0 noise, 1-goal

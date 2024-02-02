@@ -1,0 +1,12 @@
+# @package _group_
+_target_: alphazero.search.mcts.MCTS_HER
+n_rollouts: 1250 #5000
+c_pw: 1
+kappa: 0.5
+gamma: 0.95
+c_uct: 100 #0.05
+epsilon: 0 # epsilon greedy action selection if eps > 0
+V_target_policy: off_policy # can be either on_policy, off_policy or greedy
+device: ${device}
+root_state: null
+observation_bounds: []

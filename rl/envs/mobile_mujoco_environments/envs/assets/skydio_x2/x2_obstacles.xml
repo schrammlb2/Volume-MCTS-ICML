@@ -1,0 +1,86 @@
+<mujoco model="Skydio X2 scene">
+  <include file="x2.xml"/>
+
+  <statistic center="0 0 0.1" extent="0.6" meansize=".05"/>
+
+  <visual>
+    <headlight diffuse="0.6 0.6 0.6" ambient="0.3 0.3 0.3" specular="0 0 0"/>
+    <rgba haze="0.15 0.25 0.35 1"/>
+    <global azimuth="-20" elevation="-20" ellipsoidinertia="true"/>
+  </visual>
+
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1="0.3 0.5 0.7" rgb2="0 0 0" width="512" height="3072"/>
+    <texture type="2d" name="groundplane" builtin="checker" mark="edge" rgb1="0.2 0.3 0.4" rgb2="0.1 0.2 0.3"
+      markrgb="0.8 0.8 0.8" width="300" height="300"/>
+    <material name="groundplane" texture="groundplane" texuniform="true" texrepeat="5 5" reflectance="0.2"/>
+  </asset>
+
+  <worldbody>
+    <light pos="0 0 1.5" dir="0 0 -1" directional="true"/>
+    <geom name="floor" size="0 0 0.05" type="plane" material="groundplane"/>
+    <body name="obstacle_1">
+      <geom name="obstacle_1" size=".5 4 1" pos="-2 -2 4" type="cylinder" rgba="1 0 0 .2"/>
+    </body>
+    <body name="obstacle_2">
+      <geom name="obstacle_2" size=".5 4 1" pos="-2 2 4" type="cylinder" rgba="1 0 0 .2"/>
+    </body>
+    <body name="obstacle_3">
+      <geom name="obstacle_3" size=".5 4 1" pos="2 2 4" type="cylinder" rgba="1 0 0 .2"/>
+    </body>
+    <body name="obstacle_4">
+      <geom name="obstacle_4" size=".5 4 1" pos="2 -2 4" type="cylinder" rgba="1 0 0 .2"/>
+    </body>
+    <body name="obstacle_5">
+      <geom name="obstacle_5" size=".5 4 1" pos="6 6 4" type="cylinder" rgba="1 0 0 .2"/>
+    </body>
+    <body name="obstacle_6">
+      <geom name="obstacle_6" size=".5 4 1" pos="6 2 4" type="cylinder" rgba="1 0 0 .2"/>
+    </body>
+    <body name="obstacle_7">
+      <geom name="obstacle_7" size=".5 4 1" pos="6 -2 4" type="cylinder" rgba="1 0 0 .2"/>
+    </body>
+    <body name="obstacle_8">
+      <geom name="obstacle_8" size=".5 4 1" pos="6 -6 4" type="cylinder" rgba="1 0 0 .2"/>
+    </body>
+    <body name="obstacle_9">
+      <geom name="obstacle_9" size=".5 4 1" pos="2 -6 4" type="cylinder" rgba="1 0 0 .2"/>
+    </body>
+    <body name="obstacle_10">
+      <geom name="obstacle_10" size=".5 4 1" pos="2 6 4" type="cylinder" rgba="1 0 0 .2"/>
+    </body>
+    <body name="obstacle_11">
+      <geom name="obstacle_11" size=".5 4 1" pos="-2 -6 4" type="cylinder" rgba="1 0 0 .2"/>
+    </body>
+    <body name="obstacle_12">
+      <geom name="obstacle_12" size=".5 4 1" pos="-2 6 4" type="cylinder" rgba="1 0 0 .2"/>
+    </body>
+    <body name="obstacle_13">
+      <geom name="obstacle_13" size=".5 4 1" pos="-6 -6 4" type="cylinder" rgba="1 0 0 .2"/>
+    </body>
+    <body name="obstacle_14">
+      <geom name="obstacle_14" size=".5 4 1" pos="-6 -2 4" type="cylinder" rgba="1 0 0 .2"/>
+    </body>
+    <body name="obstacle_15">
+      <geom name="obstacle_15" size=".5 4 1" pos="-6 2 4" type="cylinder" rgba="1 0 0 .2"/>
+    </body>
+    <body name="obstacle_16">
+      <geom name="obstacle_16" size=".5 4 1" pos="-6 6 4" type="cylinder" rgba="1 0 0 .2"/>
+    </body>
+    <body name="obstacle_upper">
+        <geom name="obstacle_upper" type="box" pos="0 6.5 4" size="6.5 0.125 4" rgba="1.0 0.0 0.0 .2"/>
+    </body>
+    <body name="obstacle_lower">
+        <geom name="obstacle_lower" type="box" pos="0 -6.5 4" size="6.5 0.125 4" rgba="1.0 0.0 0.0 .2"/>
+    </body>
+    <body name="obstacle_right">
+        <geom name="obstacle_right" type="box" pos="6.5 0 4" size="0.125 6.5 4" rgba="1.0 0.0 0.0 .2"/>
+    </body>
+    <body name="obstacle_left">
+        <geom name="obstacle_left" type="box" pos="-6.5 0 4" size="0.125 6.5 4" rgba="1.0 0.0 0.0 .2"/>
+    </body>
+    <body name="obstacle_top">
+        <geom name="obstacle_top" type="box" pos="0 0 8" size="6.5 6.5 0.125" rgba="1.0 0.0 0.0 .2"/>
+    </body>
+  </worldbody>
+</mujoco>

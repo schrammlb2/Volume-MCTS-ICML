@@ -1,0 +1,10 @@
+# @package _group_
+_target_: alphazero.search.mcts.MCTSDiscrete
+num_actions: ${policy.num_actions}
+n_rollouts: 100
+gamma: 1
+c_uct: 1.5
+epsilon: 0.1
+V_target_policy: off_policy # can be either on_policy, off_policy or greedy
+device: ${device}
+root_state: null

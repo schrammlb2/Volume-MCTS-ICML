@@ -1,0 +1,9 @@
+env: 
+  game: Quadcopter #Pendulum-v0
+  num_train_episodes: 25 #45
+  max_episode_length: 30
+  num_train_epochs: 10 #1
+  n_rollouts_per_step: 20
+  n_trials_for_search_time: 10
+  lo: -100
+  hi: 100

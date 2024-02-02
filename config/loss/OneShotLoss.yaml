@@ -1,0 +1,11 @@
+# @package _group_
+_target_: alphazero.agent.losses.OneShotLoss
+action_dim: ${policy.action_dim}
+alpha_init: 1
+lr: 0.001
+tau: 0.1
+policy_coeff: 0.1
+value_coeff: 1
+reduction: mean
+grad_clip: ${agent.grad_clip}
+device: ${device}

@@ -1,0 +1,35 @@
+defaults:
+  - agent: ContinuousExternalTrainingHERAgent
+  - mcts: MCTSContinuous
+  - optimizer: RMSProp
+  - policy: ContinuousPolicy
+  - loss: A0CLossTuned
+  - env: Quadcopter
+  - her: her
+    
+
+game: ??? #FetchReach-v3 #Pendulum-v0
+# game: FetchPush-v2
+# game: PointMaze_Open-v3 #FetchReach-v3
+# game: Humanoid-v4 #Pendulum-v0
+# game: Pendulum-v1
+seed: 34
+num_train_episodes: ??? #10 #45
+max_episode_length: ??? #50
+num_train_epochs: ??? #10 #1
+device: cpu
+
+train_her: True
+# train_az: True
+train_az: False
+standard_her: True
+
+name: HER
+
+trainer: 
+  _target_: her_trainer.HERTrainer
+
+buffer:
+  _target_: alphazero.agent.buffers.ReplayBuffer
+  max_size: 5000 #3000
+  batch_size: 256 #32

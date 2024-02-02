@@ -1,0 +1,31 @@
+defaults:
+  - agent: OneShotAgent2
+  - mcts: MCTSOneShot_2
+  - optimizer: RMSProp
+  # - optimizer: Adam
+  - policy: DensityPolicy #ContinuousPolicy #
+  - loss: OneShotLoss
+    
+
+# game: PointMaze_Open-v3 #FetchReach-v3
+game: FetchReach-v3 #Pendulum-v0
+# game: FetchPush-v2
+# game: HalfCheetah-v4 #Pendulum-v0
+# game: HumanoidStandup-v4
+seed: 34
+num_train_episodes: 10
+max_episode_length: 50 #0
+num_train_epochs: 30
+device: cpu
+
+buffer:
+  # _target_: alphazero.agent.buffers.ReplayBuffer
+  _target_: alphazero.agent.buffers.NonConstantActionReplayBuffer
+  # max_size: 3000
+  # batch_size: 256
+  # max_size: 30000
+  # batch_size: 1000
+  max_size: 5000
+  batch_size: 256
+  # max_size: 10000
+  # batch_size: 100

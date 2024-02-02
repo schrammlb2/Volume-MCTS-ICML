@@ -1,0 +1,111 @@
+
+nodes = np.full(shape, False)
+nodes[random node] = True
+edges = np.full(shape, False)
+
+Do one iter(nodes, edges): 
+	s = select random cell in nodes
+	path = [s]
+	g = select random goal
+	while s!=g:
+		next_s = Random step from s
+		if next_s in graph (and with p < const):
+			path = [next_s]
+		else:
+			path.append(next_s)
+	return path
+
+make_maze()
+	while nodes.all() == false:
+		path =  do one iter
+		nodes.add(path)
+		edges.add(zip(r[:-1], r[1:]))
+
+valid(s)
+	if s in center of square: 
+		return true
+	elif s in edges: 
+		return true
+	else return false
+
+check_valid_edge(s1, s2):
+	if not valid(s1) or not valid(s2):
+		return False
+	else: 
+		if same_row(s1, s2):
+			if all(unblocked(rows_between(s1,s2))):
+				True
+			else:
+				False
+		elif same_col(s1, s2):
+			if all(unblocked(rows_between(s1,s2))):
+				True
+			else:
+				False
+		else:
+			do standard collision check
+
+create obstacle blocks:
+	#Create obstacle defined by the shared corners of two squares/cubes
+
+	wlog, space is ([0,1])^N
+	#create lower bound wall
+	...
+
+	n_divs 
+	w_base = 0.2
+	w = w_base/n_divs
+	# wall is n-1 dimensional
+	def create_box_from_edge(i, n1, n2):
+		bmin = [(n1[j] + (1 if i == j else 0)-w_base/2)/n_divs for j, x in enumerate(n1)]
+		bmax = [(n1[j] + 1 + w_base/2)/n_divs for j, x in enumerate(n1)]
+		return BoxSet(bmin, bmax)
+
+	space = BoxConfigurationSpace()
+	for node, node_val in np.ndenumerate(nodes):
+		adjacent_node_list = get_positive_offset_nodes(node)
+		for i, other_node in adjacent_node_list:
+			box = create_box_from_edge(i, node, other_node)
+			space.add(box)
+
+
+create obstacle blocks 2D:
+	#Create obstacle defined by the shared corners of two squares/cubes
+
+	wlog, space is ([0,1])^N
+	#create lower bound wall
+	...
+
+
+	space = GeometricSpace2D()
+
+	n_divs 
+	w_base = 0.2
+	w = w_base/n_divs
+	# wall is n-1 dimensional
+	def create_box_from_edge(i, n1, n2):
+		bmin = [(n1[j] + (1 if i == j else 0)-w_base/2)/n_divs for j, x in enumerate(n1)]
+		bmax = [(n1[j] + 1 + w_base/2)/n_divs for j, x in enumerate(n1)]
+		return Box(bmin[0], bmin[1], bmax[0], bmax[1])
+
+	for node, node_val in np.ndenumerate(nodes):
+		adjacent_node_list = get_positive_offset_nodes(node)
+		for i, other_node in adjacent_node_list:
+			box = create_box_from_edge(i, node, other_node)
+			space.addObstacle(box)
+
+	goal=[1-1/(2*n_divs) for l in shape]
+	goal_radius = 1/(2*n_divs)
+    objective = PathLengthObjectiveFunction()
+
+def get_positive_offset_nodes(node):
+	node_list = []
+	for i in range(len(shape)):
+		offset = np.zeros(len(shape))
+		offset[i] = 1
+		other_node = offset + node
+		if (other_node >= shape).any():
+			continue
+		if np.concatenate((node, other_node)) in edges: 
+			continue 
+		node_list.append((i,other_node))

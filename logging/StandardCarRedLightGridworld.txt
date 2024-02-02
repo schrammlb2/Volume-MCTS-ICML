@@ -1,0 +1,141 @@
+
+running StandardCarRedLightGridworld, 0.0 noise, 2-goal ratio with delta-probability
+
+running StandardCarRedLightGridworld, 0.0 noise, 1-goal
+
+running StandardCarRedLightGridworld, positive_reward, 0.0 noise, ARCHER
+
+running StandardCarRedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running StandardCarRedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running StandardCarRedLightGridworld, negative_reward, 0.0 noise, ARCHER
+
+running StandardCarRedLightGridworld, negative_reward, 0.0 noise, 1-goal
+
+running StandardCarRedLightGridworld, negative_reward, 0.0 noise, 1-goal
+
+running StandardCarRedLightGridworld, positive_reward, 0.0 noise, 1-goal
+
+running StandardCarRedLightGridworld, positive_reward, 0.0 noise, 1-goal
+action_noise: 0.0, 	two_goal: True, 
+	success_rate: 0.556
+	average_reward: 2.088606366724687
+	average_initial_value: 2.912212553977967
+
+action_noise: 0.0, 	two_goal: True, 
+	success_rate: 0.658
+	average_reward: 2.670011460691132
+	average_initial_value: 2.4860519046783445
+
+action_noise: 0.0, 	two_goal: True, 
+	success_rate: 0.6619999999999999
+	average_reward: 2.7170132080203637
+	average_initial_value: 2.6849020347595216
+
+action_noise: 0.0, 	two_goal: True, 
+	success_rate: 0.53
+	average_reward: 2.755044955925441
+	average_initial_value: 2.643844380378723
+
+action_noise: 0.0, 	two_goal: True, 
+	success_rate: 0.6940000000000001
+	average_reward: 2.367198723651824
+	average_initial_value: 2.7860649480819704
+
+
+running StandardCarRedLightGridworld, positive_reward, 0.0 noise, 1-goal
+action_noise: 0.0, 	two_goal: False, 
+	success_rate: 0.386
+	average_reward: 2.4603789722977423
+	average_initial_value: 4.940287786483764
+
+action_noise: 0.0, 	two_goal: False, 
+	success_rate: 0.36399999999999993
+	average_reward: 2.31137349939034
+	average_initial_value: 5.274979549407959
+
+action_noise: 0.0, 	two_goal: False, 
+	success_rate: 0.356
+	average_reward: 2.2114491455595746
+	average_initial_value: 4.994089008331299
+
+action_noise: 0.0, 	two_goal: False, 
+	success_rate: 0.37799999999999995
+	average_reward: 2.4208533723009387
+	average_initial_value: 5.13586750125885
+
+action_noise: 0.0, 	two_goal: False, 
+	success_rate: 0.38999999999999996
+	average_reward: 2.38960421083708
+	average_initial_value: 4.819602466583253
+
+action_noise: 0.0, 	two_goal: False, 
+	success_rate: 0.35200000000000004
+	average_reward: 2.173645103775556
+	average_initial_value: 4.8628149309158335
+
+
+running StandardCarRedLightGridworld, negative_reward, 0.0 noise, 1-goal
+action_noise: 0.0, 	two_goal: True, 
+	success_rate: 0.826
+	average_reward: -6.315789308949441
+	average_initial_value: -6.458073599815369
+
+action_noise: 0.0, 	two_goal: True, 
+	success_rate: 0.8400000000000001
+	average_reward: -6.374260657686001
+	average_initial_value: -6.494731889724731
+
+action_noise: 0.0, 	two_goal: True, 
+	success_rate: 0.868
+	average_reward: -6.242509804599512
+	average_initial_value: -6.093201518058778
+
+action_noise: 0.0, 	two_goal: True, 
+	success_rate: 0.8500000000000002
+	average_reward: -6.238188062691008
+	average_initial_value: -6.164117747306824
+
+action_noise: 0.0, 	two_goal: True, 
+	success_rate: 0.82
+	average_reward: -6.426335315383892
+	average_initial_value: -6.301340366363524
+
+action_noise: 0.0, 	two_goal: True, 
+	success_rate: 0.806
+	average_reward: -6.033847775241588
+	average_initial_value: -6.154066640853882
+
+
+running StandardCarRedLightGridworld, negative_reward, 0.0 noise, 1-goal
+action_noise: 0.0, 	two_goal: False, 
+	success_rate: 0.37399999999999994
+	average_reward: -7.211553207193369
+	average_initial_value: -5.15756548833847
+
+action_noise: 0.0, 	two_goal: False, 
+	success_rate: 0.3839999999999999
+	average_reward: -7.165829060421759
+	average_initial_value: -4.759906424999237
+
+action_noise: 0.0, 	two_goal: False, 
+	success_rate: 0.382
+	average_reward: -7.21531871253862
+	average_initial_value: -5.511625372886657
+
+action_noise: 0.0, 	two_goal: False, 
+	success_rate: 0.38199999999999995
+	average_reward: -6.98574320385097
+	average_initial_value: -4.72231801366806
+
+action_noise: 0.0, 	two_goal: False, 
+	success_rate: 0.404
+	average_reward: -7.181598417678968
+	average_initial_value: -5.298389943599702
+
+action_noise: 0.0, 	two_goal: False, 
+	success_rate: 0.40599999999999997
+	average_reward: -7.061341276254092
+	average_initial_value: -5.235907541751862
+
